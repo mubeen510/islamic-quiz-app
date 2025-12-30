@@ -1,0 +1,68 @@
+.option-btn {
+  transition: all 0.3s ease;
+}
+
+/* Correct Answer */
+.option-btn.correct {
+  background-color: #28a745;
+  color: #fff;
+  border-color: #28a745;
+}
+
+/* Wrong Answer */
+.option-btn.wrong {
+  background-color: #dc3545;
+  color: #fff;
+  border-color: #dc3545;
+}
+
+/* Disabled look */
+.option-btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.85;
+}
+.option-btn:disabled:hover {
+  transform: none;
+}
+#options {
+  display:flex ;
+  flex-direction: ;
+  gap: 3px;
+  font-size: 10px;
+  color: black;
+  font-weight: ;
+  flex-wrap: nowrap;
+  padding: 2px;
+}
+
+
+.option-btn {
+  display: block;
+  padding-left: px;
+  border-radius: 5px;
+  border-color: rgb(219, 106, 40);
+  box-shadow: 0px;
+  border-width: px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: px;
+}
+#next-btn{
+   border-radius: 8px;
+   border-color: #db6a28;
+    border-width: 3px;
+    margin-top: 10px;
+
+}
+#restart-btn{
+  margin-top: px;
+  border-radius: 10px;
+  border-color: #db6a28;
+  border-width: 5px;
+  margin-bottom: px;
+}
+#result{
+  margin-top: 50px;
+}
+
+

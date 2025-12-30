@@ -1,0 +1,25 @@
+/* Navbar brand */
+.navbar-brand span {
+  font-weight: 500;
+  font-size: 1rem;
+  color: white;
+}
+
+/* Nav link icons */
+.nav-link i {
+  font-size: 1.1rem;
+  color: white;
+}
+/* Nav items text color */
+.navbar-nav .nav-link {
+  color: #ffffff; /* Yahan apna desired color daalein, e.g., white, yellow, etc. */
+}
+
+/* Hover effect */
+.nav-link:hover {
+  color:red; /* Bootstrap primary color */
+}
+.navbar {
+  background-color: #0d6efd; /* aap koi bhi hex code yahan use kar sakte ho */
+}
+
